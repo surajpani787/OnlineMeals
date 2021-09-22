@@ -1,0 +1,111 @@
+body{
+    height: 100%;
+  }
+  
+  
+  .sidebar{
+    position: fixed;
+     left: -250px;
+     height: 100%;
+     width: 250px;
+     background: skyblue;
+     transition: all 0.5s ease;
+   }
+
+   .sidebar img{
+    height: 100px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+  
+   .sidebar header{
+    font-size: 19px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    background: rgb(5, 204, 204);
+    user-select: none;
+  }
+  
+  .sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 25px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+  
+  ul li:hover{
+    padding-left: 20px;
+}
+  
+  
+  label #bar, label #cancle{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+label #bar{
+    left: 40px;
+    top: 25px;
+    font-size: 20px;
+    color: black;
+    padding: 6px 12px;
+}
+
+label #cancle{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    padding: 4px 9px;
+    transition: all .0.5s ease;
+}
+
+  
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+
+  #check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #bar{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+#check:checked ~ label #cancle{
+    left: 195px;
+}
+  
+  .heading h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 56px;
+    font-size: 65px;
+}
+
+.heading p{
+     align-items: center;
+     text-align: center;
+     font-size: 25px;
+}
+  
+  #services{
+    margin: 35px;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.header{
+    font-size: 23ox;
+}
