@@ -120,7 +120,7 @@ label #cancle{
 #services{
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 18%;
     margin-left: 90px;
 }
 
@@ -149,7 +149,7 @@ label #cancle{
 
 .header{
     text-align: center;
-    margin-top: 458px;
+    margin-top: 2%;
     color: black;
 }
 
